@@ -25,8 +25,9 @@ class HelloWorld {
                 if(max<arr[i]){
                     max = arr[i];
             }
-            else(min>arr[i])
+            else{
             min = arr[i];
+            }
         }//min max
         System.out.println("Min: "+min+" Max: "+max);
     }
